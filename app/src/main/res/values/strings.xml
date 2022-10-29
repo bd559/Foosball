@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Foosball</string>
+    <string name="player_name">Player: %s</string>
+    <string name="games_won">Wins: %s</string>
+    <string name="games_played">Games Played: %s</string>
+    <string name="btn_update">Update</string>
+    <string name="dialog_add_new_foosball_match">Add new Foosball Match</string>
+    <string name="player_one_name">Player One Name</string>
+    <string name="score">Score</string>
+    <string name="player_two_name">Player Two Name</string>
+    <string name="add">Add</string>
+    <string name="cancel">Cancel</string>
+    <string name="btn_rankings">Rankings</string>
+    <string name="foosball_title">All Foosball Matches</string>
+    <string name="btn_all_matches">All Matches</string>
+    <string name="btn_order_by_games_played">Order By Games Played</string>
+    <string name="btn_order_by_wins">Order By Wins</string>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/foosballMatchesFragment">
+
+    <fragment
+        android:id="@+id/foosballMatchesFragment"
+        android:name="com.example.foosball.ui.fragments.FoosballMatchesFragment"
+        android:label="FoosballMatchesFragment" >
+        <action
+            android:id="@+id/action_foosballMatchesFragment_to_rankingFragment"
+            app:destination="@id/rankingFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/rankingFragment"
+        android:name="com.example.foosball.ui.fragments.RankingFragment"
+        android:label="RankingFragment" >
+        <action
+            android:id="@+id/action_rankingFragment_to_foosballMatchesFragment"
+            app:destination="@id/foosballMatchesFragment" />
+        <argument
+            android:name="rankings"
+            app:argType="com.example.foosball.data.models.Ranking[]"
+            app:nullable="true" />
+    </fragment>
+</navigation>
